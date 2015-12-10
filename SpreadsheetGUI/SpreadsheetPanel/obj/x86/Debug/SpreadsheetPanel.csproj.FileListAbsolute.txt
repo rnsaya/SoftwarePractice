@@ -1,0 +1,9 @@
+C:\Users\natew\Source\Repos\Course_Examples\PS_Skeletons\PS6Skeleton\SpreadsheetPanel\bin\Debug\SpreadsheetPanel.XML
+C:\Users\natew\Source\Repos\Course_Examples\PS_Skeletons\PS6Skeleton\SpreadsheetPanel\bin\Debug\SpreadsheetPanel.dll
+C:\Users\natew\Source\Repos\Course_Examples\PS_Skeletons\PS6Skeleton\SpreadsheetPanel\bin\Debug\SpreadsheetPanel.pdb
+C:\Users\natew\Source\Repos\Course_Examples\PS_Skeletons\PS6Skeleton\SpreadsheetPanel\obj\x86\Debug\SS.Properties.Resources.resources
+C:\Users\natew\Source\Repos\Course_Examples\PS_Skeletons\PS6Skeleton\SpreadsheetPanel\obj\x86\Debug\SpreadsheetPanel.csproj.GenerateResource.Cache
+C:\Users\natew\Source\Repos\Course_Examples\PS_Skeletons\PS6Skeleton\SpreadsheetPanel\obj\x86\Debug\SpreadsheetPanel.dll
+C:\Users\natew\Source\Repos\Course_Examples\PS_Skeletons\PS6Skeleton\SpreadsheetPanel\obj\x86\Debug\SpreadsheetPanel.pdb
+C:\Users\natew\Source\Repos\Course_Examples\PS_Skeletons\PS6Skeleton\SpreadsheetPanel\obj\x86\Debug\SS.SpreadsheetPanel.resources
+C:\Users\natew\Source\Repos\Course_Examples\PS_Skeletons\PS6Skeleton\SpreadsheetPanel\obj\x86\Debug\SpreadsheetPanel.csprojResolveAssemblyReference.cache

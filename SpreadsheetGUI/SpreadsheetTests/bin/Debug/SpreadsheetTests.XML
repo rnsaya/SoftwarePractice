@@ -1,0 +1,404 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SpreadsheetTests</name>
+    </assembly>
+    <members>
+        <member name="T:SpreadsheetTests.SpreadSheetUnitTests">
+            <summary>
+            Tests the Spreadsheet class
+            </summary>
+        </member>
+        <member name="F:SpreadsheetTests.SpreadSheetUnitTests.validVar">
+            <summary>
+            Hashset to contain all the valid variables for the spreadsheet object.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.IntializeTests">
+            <summary>
+            This will intalize the isValid Func given to some spreadsheet objects
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetConstructorTest1">
+            <summary>
+            Determines if an empty Spreadsheet is indeed an AbstractSpreadsheet
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellTest1">
+            <summary>
+            Tests whether SetContentsOfCell works for a single cell with no dependents
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellTest2">
+            <summary>
+            Tests whether SetContentsOfCell works for a single cell with no dependents
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellTest3">
+            <summary>
+            Tests whether SetContentsOfCell works for a single cell with one dependent
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellTest4">
+            <summary>
+            Tests whether SetContentsOfCell works for a single cell with multiple dependent
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellTest5">
+            <summary>
+            Tests whether SetContentsOfCell works for a single cell with multiple dependent
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellTest6">
+            <summary>
+            Tests whether SetContentsOfCell works for a single cell with multiple dependent
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellTest7">
+            <summary>
+            Tests whether SetContentsOfCell works for a single cell with multiple dependent
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellTest8">
+            <summary>
+            Tests whether SetContentsOfCell works for a single cell with multiple dependents
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellTest9">
+            <summary>
+            Tests whether SetContentsOfCell works for a single cell with multiple dependents
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellTest10">
+            <summary>
+            Tests whether SetContentsOfCell works for a single cell with multiple dependents
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellTest11">
+            <summary>
+            Tests whether SetContentsOfCell works for a cell with a Formula and when a change is made, the value of the cell with the formula updates
+            appropriately.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellTest12">
+            <summary>
+            Tests whether SetContentsOfCell works for a cell with a Formula and when a change is made, the value of the cell with the formula updates
+            appropriately.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetGetCellContentsTest1">
+            <summary>
+            Tests whether getCellContents returns the right object after it has been created
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetGetCellContentsTest2">
+            <summary>
+            Tests whether getCellContents returns the right object and contents even if the cell names are similar
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetGetCellContentsTest3">
+            <summary>
+            Tests whether getCellContents returns the right object after it has been created
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadSheetGetNamesOfNonemptyCellsTest0">
+            <summary>
+            If passed an empty spreadsheet, GetNameOfNonEmptyCells shold return an empty string. 
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetGetNamesOfNonemptyCellsTest1">
+            <summary>
+            Tests whether getCellContents returns the right object after it has been created
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetGetNamesOfNonemptyCellsTest2">
+            <summary>
+            Tests whether getCellContents returns the right object after it has been created
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadSheetAddNewCellContentsTest1">
+            <summary>
+            Tests to see if you are able to update the contents of a cell after it has been populated
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadSheetAddNewCellContentsTest2">
+            <summary>
+            Tests to see if you are able to update the contents of a cell after it has been populated
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadSheetAddNewCellContentsTest3">
+            <summary>
+            Tests to see if you are able to update the contents of a cell after it has been populated
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadSheetAddNewCellContentsTest4">
+            <summary>
+            Tests to see if you are able to update the contents of a cell after it has been populated
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadSheetAddNewCellContentsTest5">
+            <summary>
+            Tests to see if you are able to update the contents of a cell after it has been populated and it will return all direct and indirect cells
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadSheetAddNewCellContentsTest6">
+            <summary>
+            Tests to see if you are able to update the contents of a cell after it has been populated
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetCircularExceptionTest1">
+            <summary>
+            Tests to make sure that the formula is not changed after a CircularException is found
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.Spreadsheet_Three_Argument_Constructor1">
+            <summary>
+            Tests to see if the spreadsheet class can create a correct Spreadsheet with three arguments
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.Spreadsheet_Three_Argument_Constructor2">
+            <summary>
+            Tests to see if the spreadsheet class can create a correct Spreadsheet with three arguments
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.Spreadsheet_Three_Argument_Constructor_With_Normalizer">
+            <summary>
+            Tests to see if the spreadsheet class can create a correct Spreadsheet with three arguments and 
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.Spreadsheet_Three_Argument_Constructor_With_Validator">
+            <summary>
+            Tests to see if the spreadsheet class can create a correct Spreadsheet with three arguments and 
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.Spreadsheet_Three_Argument_Cell_Value_test">
+            <summary>
+            Tests to see if the spreadsheet class can create a correct Spreadsheet with three arguments
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetFourArgumentConstructor1">
+            <summary>
+            Tests to see if the spreadsheet class can create a correct Spreadsheet with three arguments
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetFourArgumentConstructor2">
+            <summary>
+            Tests to see if the spreadsheet class can create a correct Spreadsheet with three arguments
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetFourArgumentConstructor3">
+            <summary>
+            Tests to see if the spreadsheet class can create a correct Spreadsheet with four arguments
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetGetVersionTest">
+            <summary>
+            Tests to see if GetVersion returns the correct output if given a good file
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetGetContentsOfCellExceptionTest1">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetGetContentsOfCellExceptionTest2">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetGetContentsOfCellExceptionTest3">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetGetContentsOfCellExceptionTest4">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellExceptionTest1">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellExceptionTest2">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellExceptionTest3">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellExceptionTest4">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellExceptionTest5">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellExceptionTest6">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellExceptionTest7">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellExceptionTest8">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellExceptionTest9">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellExceptionTest10">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellExceptionTest11">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellExceptionTest12">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetNullTest">
+            <summary>
+            Tests for ArgumentNullException
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetCircularException1">
+            <summary>
+            Tests to see if a CircularException is thrown because after adding C1, it becomes acyclic.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetCircularException2">
+            <summary>
+            Tests to see if a CircularException is thrown because after adding C1, it becomes acyclic.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellExceptionTest13">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellExceptionTest14">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetSetContentsOfCellExceptionTest15">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetGetCellValueExceptionTest1">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetGetCellValueExceptionTest2">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetGetCellValueExceptionTest3">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetGetCellValueExceptionTest4">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetGetCellValueExceptionTest5">
+            <summary>
+            Tests whether an InvalidNameException is thrown when an invalid cell name is passed
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetReadWriteException_Test1">
+            <summary>
+            Tests to see if SpreadsheetReadWriteException will be thrown if the versions don't match
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetReadWriteException_Test2">
+            <summary>
+            Tests to see if SpreadsheetReadWriteException will be thrown if there is a bad variables in the file
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetReadWriteException_Test3">
+            <summary>
+            Tests to see if SpreadsheetReadWriteException will be thrown if there is a bad formula in the file
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetReadWriteException_Test4">
+            <summary>
+            Tests to see if SpreadsheetReadWriteException will be thrown if there is a circular dependency in the file given
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetReadWriteException_Test5">
+            <summary>
+            Tests to see if SpreadsheetReadWriteException will be thrown if there is a problem reading the file
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetReadWriteException_Test6">
+            <summary>
+            Tests to see if SpreadsheetReadWriteException will be thrown if the wrong parameters are given
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetReadWriteException_Test">
+            <summary>
+            Tests to see if SpreadsheetReadWriteException will be thrown if the file given has no version
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetGetVersionExceptionTest1">
+            <summary>
+            Tests to see if GetVersion returns the correct output if given a good file
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.SpreadsheetGetVersionExceptionTest2">
+            <summary>
+            Tests to see if GetVersion returns the correct output if given a good file
+            </summary>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.isValid(System.String)">
+            <summary>
+            Returns either true or false if the string argument given is valid
+            </summary>
+            <param name="var"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SpreadsheetTests.SpreadSheetUnitTests.fillSet">
+            <summary>
+            Fills the local HashSet
+            </summary>
+        </member>
+        <member name="T:SpreadsheetTester.GradingTests">
+             <summary>
+            This is a test class for SpreadsheetTest and is intended
+            to contain all SpreadsheetTest Unit Tests
+            </summary>
+        </member>
+        <member name="P:SpreadsheetTester.GradingTests.TestContext">
+             <summary>
+            Gets or sets the test context which provides
+            information about and functionality for the current test run.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,3 @@
+C:\Users\Rachel\Source\Repos\Vendetta\AgCubio\Resources\bin\Debug\Resources.exe.config
+C:\Users\Rachel\Source\Repos\Vendetta\AgCubio\Resources\obj\Debug\Resources.csprojResolveAssemblyReference.cache
+C:\Users\Rachel\Source\Repos\SoftwarePractice\AgCubioClient\Resources\bin\Debug\Resources.exe.config

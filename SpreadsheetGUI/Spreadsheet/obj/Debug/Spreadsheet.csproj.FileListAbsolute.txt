@@ -1,0 +1,8 @@
+C:\Users\Rachel\Source\Repos\00754395\PS4\Spreadsheet\bin\Debug\Spreadsheet.dll
+C:\Users\Rachel\Source\Repos\00754395\PS4\Spreadsheet\bin\Debug\Spreadsheet.pdb
+C:\Users\Rachel\Source\Repos\00754395\PS4\Spreadsheet\bin\Debug\PS2.dll
+C:\Users\Rachel\Source\Repos\00754395\PS4\Spreadsheet\bin\Debug\SpreadsheetUtilities.dll
+C:\Users\Rachel\Source\Repos\00754395\PS4\Spreadsheet\bin\Debug\PS2.xml
+C:\Users\Rachel\Source\Repos\00754395\PS4\Spreadsheet\bin\Debug\SpreadsheetUtilities.xml
+C:\Users\Rachel\Source\Repos\00754395\PS4\Spreadsheet\obj\Debug\Spreadsheet.dll
+C:\Users\Rachel\Source\Repos\00754395\PS4\Spreadsheet\obj\Debug\Spreadsheet.pdb

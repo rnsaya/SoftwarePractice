@@ -1,0 +1,14 @@
+C:\Users\Rachel\Source\Repos\Vendetta\AgCubio\View\bin\Debug\View.exe
+C:\Users\Rachel\Source\Repos\Vendetta\AgCubio\View\bin\Debug\View.pdb
+C:\Users\Rachel\Source\Repos\Vendetta\AgCubio\View\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rachel\Source\Repos\Vendetta\AgCubio\View\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rachel\Source\Repos\Vendetta\AgCubio\View\obj\Debug\View.csprojResolveAssemblyReference.cache
+C:\Users\Rachel\Source\Repos\Vendetta\AgCubio\View\obj\Debug\View.Properties.Resources.resources
+C:\Users\Rachel\Source\Repos\Vendetta\AgCubio\View\obj\Debug\View.csproj.GenerateResource.Cache
+C:\Users\Rachel\Source\Repos\Vendetta\AgCubio\View\obj\Debug\View.exe
+C:\Users\Rachel\Source\Repos\Vendetta\AgCubio\View\obj\Debug\View.pdb
+C:\Users\Rachel\Source\Repos\Vendetta\AgCubio\View\obj\Debug\View.Form.resources
+C:\Users\Rachel\Source\Repos\Vendetta\AgCubio\View\bin\Debug\Model.dll
+C:\Users\Rachel\Source\Repos\Vendetta\AgCubio\View\bin\Debug\Model.pdb
+C:\Users\Rachel\Source\Repos\Vendetta\AgCubio\View\bin\Debug\Network_Controller.dll
+C:\Users\Rachel\Source\Repos\Vendetta\AgCubio\View\bin\Debug\Network_Controller.pdb

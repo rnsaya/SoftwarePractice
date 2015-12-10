@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<spreadsheet version="1.0">
+  <cell>
+    <name>
+      _A1
+    </name>
+    <contents>
+      2.5
+    </contents>
+  </cell>
+  <cell>
+    <name>
+      V1
+    </name>
+    <contents>
+      cell contents
+    </contents>
+  </cell>
+  <cell>
+    <name>
+      D1
+    </name>
+    <contents>
+      =2+A1*2
+    </contents>
+  </cell>
+</spreadsheet>

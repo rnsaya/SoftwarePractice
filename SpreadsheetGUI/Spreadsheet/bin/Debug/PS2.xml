@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PS2</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "T:SpreadsheetUtilities.DependencyGraph" -->
+        <member name="F:SpreadsheetUtilities.DependencyGraph.size">
+            <summary>
+            Represents tht current number of ordered pairs in the Dependency Graph
+            </summary>
+        </member>
+        <member name="F:SpreadsheetUtilities.DependencyGraph.dentPairs">
+            <summary>
+            Contains a Dictionary of all the dependent pairs in the Dependency Graph
+            <para />
+            Invariant:
+            If a change to dentPairs takes place, then a change to deePairs must also take place.
+            <para />
+            EX: If pair (s,t) is removed from dentPairs, where s is dependent on t,
+             then the same pair, (t,s) must be removed from deePairs.
+            </summary>
+        </member>
+        <member name="F:SpreadsheetUtilities.DependencyGraph.deePairs">
+            <summary>
+            Contains a Dictionary of all the dependee pairs in the Dependency Graph
+            <para />
+            Invariant:
+            If a change to deePairs takes place, then a change to dentPairs must also take place.
+            <para/>
+            EX: If pair (t,s) is removed from deePairs, where t is a dependee of s,
+             then the same pair, (s,t) must be removed from deePairs.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.#ctor">
+            <summary>
+            Creates an empty DependencyGraph.
+            </summary>
+        </member>
+        <member name="P:SpreadsheetUtilities.DependencyGraph.Size">
+            <summary>
+            The number of ordered pairs in the DependencyGraph.
+            </summary>
+        </member>
+        <member name="P:SpreadsheetUtilities.DependencyGraph.Item(System.String)">
+            <summary>
+            The size of dependees(s).
+            This property is an example of an indexer.  If dg is a DependencyGraph, you would
+            invoke it like this:
+            dg["a"]
+            It should return the size of dependees("a")
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.HasDependents(System.String)">
+            <summary>
+            Reports whether dependents(s) is non-empty.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.HasDependees(System.String)">
+            <summary>
+            Reports whether dependees(s) is non-empty.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.GetDependents(System.String)">
+            <summary>
+            Enumerates dependents(s).
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.GetDependees(System.String)">
+            <summary>
+            Enumerates dependees(s).
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.AddDependency(System.String,System.String)">
+             <summary>
+             <para>Adds the ordered pair (s,t), if it doesn't exist</para>
+             
+             <para>This should be thought of as:</para>   
+             
+               s depends on t
+            
+             </summary>
+             <param name="s"> s cannot be evaluated until t is</param>
+             <param name="t"> t must be evaluated first.  S depends on T</param>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.RemoveDependency(System.String,System.String)">
+            <summary>
+            Removes the ordered pair (s,t), if it exists
+            </summary>
+            <param name="s"></param>
+            <param name="t"></param>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.ReplaceDependents(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Removes all existing ordered pairs of the form (s,r).  Then, for each
+            t in newDependents, adds the ordered pair (s,t).
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.ReplaceDependees(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Removes all existing ordered pairs of the form (r,s).  Then, for each 
+            t in newDependees, adds the ordered pair (t,s).
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.CheckToRemoveKey(System.String)">
+            <summary>
+            This method will see if the value contained at key s has no values.
+            <para/>
+            If no values are found in either dictionary, remove the Key from both deePairs and dentPairs
+            </summary>
+            <param name="s">The key to check</param>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.CheckForEmptyString(System.String)">
+            <summary>
+            Determines if s is made up of only strings or is null
+            </summary>
+            <param name="s">String to test</param>
+            <returns>If string has only whitespace or is null, return false. Otherwise return true</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,14 @@
+C:\Users\Rachel\Source\Repos\SpaghettiSharp\AgCubio\AgCubioConsole\bin\Debug\AgCubioConsole.exe.config
+C:\Users\Rachel\Source\Repos\SpaghettiSharp\AgCubio\AgCubioConsole\bin\Debug\AgCubioConsole.exe
+C:\Users\Rachel\Source\Repos\SpaghettiSharp\AgCubio\AgCubioConsole\bin\Debug\AgCubioConsole.pdb
+C:\Users\Rachel\Source\Repos\SpaghettiSharp\AgCubio\AgCubioConsole\bin\Debug\Model.dll
+C:\Users\Rachel\Source\Repos\SpaghettiSharp\AgCubio\AgCubioConsole\bin\Debug\NetworkController.dll
+C:\Users\Rachel\Source\Repos\SpaghettiSharp\AgCubio\AgCubioConsole\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rachel\Source\Repos\SpaghettiSharp\AgCubio\AgCubioConsole\bin\Debug\View.exe
+C:\Users\Rachel\Source\Repos\SpaghettiSharp\AgCubio\AgCubioConsole\bin\Debug\Model.pdb
+C:\Users\Rachel\Source\Repos\SpaghettiSharp\AgCubio\AgCubioConsole\bin\Debug\NetworkController.pdb
+C:\Users\Rachel\Source\Repos\SpaghettiSharp\AgCubio\AgCubioConsole\bin\Debug\View.pdb
+C:\Users\Rachel\Source\Repos\SpaghettiSharp\AgCubio\AgCubioConsole\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rachel\Source\Repos\SpaghettiSharp\AgCubio\AgCubioConsole\obj\Debug\AgCubioConsole.csprojResolveAssemblyReference.cache
+C:\Users\Rachel\Source\Repos\SpaghettiSharp\AgCubio\AgCubioConsole\obj\Debug\AgCubioConsole.exe
+C:\Users\Rachel\Source\Repos\SpaghettiSharp\AgCubio\AgCubioConsole\obj\Debug\AgCubioConsole.pdb
